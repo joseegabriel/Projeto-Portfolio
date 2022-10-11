@@ -1,0 +1,130 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.contact {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(10, 4, 26);
+}
+
+.contact h1 {
+    color: white;
+    letter-spacing: 4px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 5%;
+    font-size: 30px;
+    color: white;
+    background-color:rgb(10, 4, 26);;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 30px;
+}
+
+.logos img {
+    width: 20%;
+}
+
+.whatsapp {
+    display: flex;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.whatsapp:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px  rgba(0, 255, 13, 0.452));
+    filter: drop-shadow(0px 5px 5px rgba(0, 255, 13, 0.452));
+}
+
+.whatsapp img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.whatsapp a {
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.linkedin {
+    display: flex;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.linkedin img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.linkedin a {
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.linkedin:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px  rgba(0, 117, 252, 0.486));
+    filter: drop-shadow(0px 5px 5px rgba(0, 117, 252, 0.486));
+}
+
+.github {
+    display: flex;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.github img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.github a {
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.github:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px  rgba(17, 0, 252, 0.486));
+    filter: drop-shadow(0px 5px 5px rgba(255, 255, 255, 0.349));
+}
