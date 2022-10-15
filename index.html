@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio José Gabriel</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="src/styles/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 
@@ -26,40 +26,80 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">     
                     <li class="nav-item">
-                      <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active text-light" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="src/informacoes.html" target="_blank">Sobre</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#sobre">Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="src/contato.html" target="_blank">Contato</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="#">Projetos</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#projetos">Projetos</a>
                   </li>
                 </ul>
               </div>
             </nav>
             </div>
     </section> <!-- Fim do menu -->
-<section class="main-portfolio">
+
+<section id="inicio" class="main-portfolio"> 
 <div class="stars"></div>
 <div class="stars2"></div>
     <div class="principal">
       <div class="principal-left">
-        <h1>Eai! eu sou</h1>
+        <h1>Eai! eu sou o</h1>
         <span class="principal__sentence">José Gabriel</span>
         <span class="principal__input-cursor"></span>
         <h1>Desenvolvedor Full Stack em Formação</h1>
+        <div class="logos">
+          <div class="linkedin">
+              <img src="./src/img/linkedin.png" alt="Logo LinkedIn">
+              <a href="https://www.linkedin.com/in/jose-gabriel-/" target="_blank">LinkedIn</a>
+          </div>
+          <div class="github">
+              <img src="./src/img/github.png" alt="github-logo">
+              <a href="https://github.com/joseegabriel" target="_blank">GitHub</a>
+          </div>
       </div>
-      <div class="principal-right">
       </div>
-
     </div>
-    </section>
-    <footer>    
-        Copyright &copy; by José Gabriel - 2022
-    </footer>
+    </section> <!--Fim da Section Home -->
+
+    <section id="sobre" class="info-list">
+      <div class="apresentation">
+            <div class="text-1">
+              <h1 class="line-1 anim-typewriter">Sobre Mim!</h1><br>
+              <h2>Guaratiba, Rio de Janeiro.</h2><br>
+              <p>
+                &nbsp; &nbsp; Sou um jovem de 19 Anos, apaixonado por jogos eletrônicos e esportes, se adaptando ao novo mercado de trabalho. <br>
+                &nbsp; &nbsp;Um projeto da Prefeitura do Rio de Janeiro chamado Programadores Cariocas em parceria com a <span class="text-danger">Resilia Educação</span>  e <span class="text-danger font-weight-bold">Senac RJ</span>, me fizeram entrar de cabeça nesse mundo tecnológico e aprender sobre Desenvolvimento Web. <br>
+              </p>
+              </div>
+        </div>
+</section> <!-- Fim da Section Sobre -->
+
+<section id="projetos" class="projetos">
+  <h1 class="line-1 anim-typewriter">Projetos!</h1>
+  <div class="projetos-wrapper">
+      <div class="avengers">
+        <img src="src/img/avengers.png" alt="">
+        <h4>Projeto Vingadores (<span class="text-success">Entregue!</span>) </h4>
+        <p>&nbsp;&nbsp;O intuito do projeto era ajudar um comércio local a criar um site para venda de produtos.</p>
+        <br>
+        <p> <span class="text-primary">Tecnologias utilizadas : HTML, CSS e JavaScript.</span></p>
+        <button class="button"><a href="https://lnkd.in/dE6dVZme" target="_blank"> Visualizar</a></button>
+      </div>
+      <div class="adote-aqui">
+        <img src="src/img/logo.png" alt="">
+        <h4>Projeto AdoteAqui! (<span class="text-success">Entregue!</span>) </h4>
+        <p>&nbsp;&nbsp;O intuito do projeto era ajudar uma ONG a desenvolver uma página web para adoção de pets.</p>
+        <br>
+        <p> <span class="text-primary">Tecnologias utilizadas : HTML e CSS.</span></p>
+        <button class="button"><a href="https://lnkd.in/dE6dVZme" target="_blank"> Visualizar</a></button>
+      </div>
+  </div>
+</section> <!-- Fim da Section Projetos -->
+<footer>    
+    Copyright &copy; by José Gabriel - 2022.
+</footer>
 </body>
 </html>
