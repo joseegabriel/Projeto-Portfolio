@@ -22,40 +22,6 @@
     margin-top: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-    .projects-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 3rem;
-    }
-    .logos {
-        flex-direction: column;
-    }
-
-    .habilities {
-        display: grid;
-        width: 100%;
-        padding: 5% 5% 0%;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    
-    .box-habilities {
-        width: 90%;
-    }
-
-    .conteudo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-    }
-  }
-
 .projects-wrapper img {
     height: 200px;
 }

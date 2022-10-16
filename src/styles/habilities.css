@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 .habilities {
     display: flex;
     width: 100%;
@@ -5,6 +7,14 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    font-family: 'Secular One', sans-serif;
+}
+
+@media only screen and (max-width: 682px) {
+  .habilities {
+    flex-direction: column;
+    font-size: 1.5em;
+}
 }
 
 .box-habilities {
@@ -43,6 +53,7 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    font-size: 30px;
 }
 
 .line-1 {
@@ -74,4 +85,41 @@
   to {
     border-right-color: transparent;
  }
+}
+
+@media only screen and (max-width: 600px) {
+  .projects-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 3rem;
+  }
+  .logos {
+      flex-direction: column;
+  }
+
+  .habilities {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-direction: column !important;
+      gap: 10px;
+  }
+
+  .mouse-icon img {
+    width: 100%;
+  }
+  
+  .box-habilities {
+      width: 90%;
+  }
+
+  .conteudo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 1em;
+  }
 }
