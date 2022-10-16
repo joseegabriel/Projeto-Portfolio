@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio José Gabriel</title>
-    <link rel="stylesheet" href="src/styles/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/initial.css">
+    <link rel="stylesheet" href="src/styles/project.css">
+    <link rel="stylesheet" href="src/styles/about.css">
+    <link rel="stylesheet" href="src/styles/habilities.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -25,14 +27,14 @@
             </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">     
-                    <li class="nav-item">
+                    <li class="menu">
                       <a class="nav-link active text-light" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                   </li>
-                  <li class="nav-item">
+                  <li class="menu">
                     <a class="nav-link active text-light" aria-current="page" href="#sobre">Sobre</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="menu">
                     <a class="nav-link active text-light" aria-current="page" href="#projetos">Projetos</a>
                   </li>
                 </ul>
@@ -41,13 +43,13 @@
             </div>
     </section> <!-- Fim do menu -->
 
-<section id="inicio" class="main-portfolio"> 
+<section id="initial" class="main-portfolio"> 
 <div class="stars"></div>
 <div class="stars2"></div>
     <div class="principal">
       <div class="principal-left">
         <h1>Eai! eu sou o</h1>
-        <span class="principal__sentence">José Gabriel</span>
+        <span class="principal__sentence">José Gabriel.</span>
         <span class="principal__input-cursor"></span>
         <h1>Desenvolvedor Full Stack em Formação</h1>
         <div class="logos">
@@ -62,24 +64,40 @@
       </div>
       </div>
     </div>
-    </section> <!--Fim da Section Home -->
+    </section> <!--Fim da Section Initial -->
 
-    <section id="sobre" class="info-list">
+    <section id="about" class="info-list">
       <div class="apresentation">
             <div class="text-1">
               <h1 class="line-1 anim-typewriter">Sobre Mim!</h1><br>
               <h2>Guaratiba, Rio de Janeiro.</h2><br>
               <p>
                 &nbsp; &nbsp; Sou um jovem de 19 Anos, apaixonado por jogos eletrônicos e esportes, se adaptando ao novo mercado de trabalho. <br>
-                &nbsp; &nbsp;Um projeto da Prefeitura do Rio de Janeiro chamado Programadores Cariocas em parceria com a <span class="text-danger">Resilia Educação</span>  e <span class="text-danger font-weight-bold">Senac RJ</span>, me fizeram entrar de cabeça nesse mundo tecnológico e aprender sobre Desenvolvimento Web. <br>
+                &nbsp; &nbsp; Um projeto da Prefeitura do Rio de Janeiro chamado Programadores Cariocas em parceria com a <span class="text-danger">Resilia Educação</span>  e <span class="text-danger font-weight-bold">Senac RJ</span>, me fizeram entrar de cabeça nesse mundo tecnológico e aprender sobre Desenvolvimento Web. <br>
               </p>
               </div>
         </div>
-</section> <!-- Fim da Section Sobre -->
+</section> <!-- Fim da Section About -->
 
-<section id="projetos" class="projetos">
+<section class="habilities">
+  <div id="box-habilities" class="box-habilities">
+    <div class="mouse-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="html icon">
+    </div>
+    <div class="mouse-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="css icon">
+    </div>
+  </div>
+  <div class="interative">
+    <div class="conteudo">
+      Coloque o mouse por cima para ler a descrição
+    </div>
+  </div>
+</section> <!-- Fim da Section Habilities-->
+
+<section id="project" class="project">
   <h1 class="line-1 anim-typewriter">Projetos!</h1>
-  <div class="projetos-wrapper">
+  <div class="projects-wrapper">
       <div class="avengers">
         <img src="src/img/avengers.png" alt="">
         <h4>Projeto Vingadores (<span class="text-success">Entregue!</span>) </h4>
@@ -90,16 +108,18 @@
       </div>
       <div class="adote-aqui">
         <img src="src/img/logo.png" alt="">
-        <h4>Projeto AdoteAqui! (<span class="text-success">Entregue!</span>) </h4>
+        <h4>Projeto AdoteAqui! (<span class="text-danger">Em andamento</span>) </h4>
         <p>&nbsp;&nbsp;O intuito do projeto era ajudar uma ONG a desenvolver uma página web para adoção de pets.</p>
         <br>
         <p> <span class="text-primary">Tecnologias utilizadas : HTML e CSS.</span></p>
-        <button class="button"><a href="https://lnkd.in/dE6dVZme" target="_blank"> Visualizar</a></button>
+        <button class="button"><a href="#"> Visualizar</a></button>
       </div>
   </div>
 </section> <!-- Fim da Section Projetos -->
 <footer>    
     Copyright &copy; by José Gabriel - 2022.
 </footer>
+
+<script src="./src/script/script.js"></script>
 </body>
 </html>

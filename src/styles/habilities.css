@@ -1,0 +1,77 @@
+.habilities {
+    display: flex;
+    width: 100%;
+    padding: 5% 5% 0%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.box-habilities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.box-habilities img {
+    width: 200px;
+}
+
+.mouse-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.box-habilities:hover > .mouse-icon:not(:hover) {
+    filter: brightness(0.9) saturate(1) contrast(1.0) blur(5px);
+}
+
+.mouse-icon:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(0px 10px 5px rgba(0,0,0,.5));
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.line-1 {
+    margin: 0 auto 10px auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Silkscreen', cursive;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+}
+  to {
+    width: 6.7em;
+}
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255,255,255,.75);}
+  to {
+    border-right-color: transparent;
+ }
+}
