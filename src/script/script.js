@@ -4,7 +4,7 @@ const content = document.querySelector('.conteudo');
 
 const description = [
     '<h2>HTML</h2> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p>',
-    '<h2>CSS</h2> <p>É um mecanismo para adicionar estilo a um documento web.</p>',
+    '<h2>CSS</h2> <p>É um mecanismo para adicionar estilo a um documento Web.</p>',
 ]
 
 skills.forEach((elemento, index) => {
