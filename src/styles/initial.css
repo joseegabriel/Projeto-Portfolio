@@ -7,24 +7,29 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    background: rgb(12,13,78);
-    background: linear-gradient(180deg, rgba(12,13,78,1) 30%, rgba(0,198,255,1) 48%, rgba(80,209,255,1) 52%, rgba(173,235,232,1) 71%);
-}
+  background: rgb(12,13,78);
+  background: linear-gradient(180deg, rgba(12,13,78,1) 30%, rgba(0,198,255,1) 48%, rgba(80,209,255,1) 79%, rgba(94,209,204,1) 94%, rgba(12,255,0,1) 100%);
+  }
 
 .icon-name {
     font-weight: bold;
     color: #6c6cf7;
     font-family: 'Silkscreen', cursive;
+    text-shadow: 2px 2px black;
 }
+
+
 
 ul {
     margin: 0 auto;
     font-size: 20px;
     gap: 20px;
     font-family: 'Silkscreen', cursive;
+    text-shadow: 2px 2px black;
 }
 
 
@@ -40,7 +45,6 @@ ul {
     justify-content: space-around;
     align-items: center;
     padding: 5%;
-    height: 80vh;
     color: white;
     font-family: 'Silkscreen', cursive;
 }
@@ -53,10 +57,14 @@ ul {
     letter-spacing: 3px;
   }
 
+  /* .teste {
+    visibility: hidden;
+  } */
   .principal h1 {
     text-transform: uppercase;
     font-size: 1.5rem;
     margin: 1.5rem 0;
+    text-shadow: 2px 2px black;
   }
 
   .principal .principal__input-cursor {
@@ -519,4 +527,3 @@ footer {
     font-family: 'Silkscreen', cursive;
     background: linear-gradient(180deg, rgba(14,255,0,1) 10%, rgba(31,178,3,1) 15%, rgba(53,76,7,1) 21%, rgba(48,35,10,1) 24%);
 }
-

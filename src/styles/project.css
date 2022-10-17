@@ -24,6 +24,9 @@
 
 .projects-wrapper img {
     height: 200px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 .avengers {
@@ -35,6 +38,8 @@
 
 .avengers h4 {
     font-family: 'Special Elite', cursive;
+    color: white;
+    text-shadow: -1px 2px 1px black;
 }
 
 .adote-aqui {
@@ -46,10 +51,8 @@
 
 .adote-aqui h4 {
     font-family: 'Special Elite', cursive;
-}
-
-.adote-aqui img {
-    background-color: black;
+    text-shadow: -1px 2px 1px black;
+    color: white;
 }
 
 .button {
